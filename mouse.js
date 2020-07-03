@@ -6,6 +6,9 @@ function mouse(name){
 mouse.prototype.die = function(){
     this.isDead =true
 }
+mouse.prototype.run = function(){
+    console.log('run');
+}
 mouse.prototype.sleep = function(){
     console.log('sleep');
     
